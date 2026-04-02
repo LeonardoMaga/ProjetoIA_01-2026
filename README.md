@@ -40,7 +40,7 @@ O projeto está relacionado ao **Trabalho de Conclusão de Curso (TCC)** dos int
 
 | Notebook | Descrição |
 |---|---|
-| `eda_baseline.ipynb` | Pré-processamento, análise exploratória (EDA) e modelo baseline Naive Sazonal |
+| `ProjetoIA_notebook.ipynb` | Pré-processamento, análise exploratória (EDA) e modelo baseline Naive Sazonal |
 
 ---
 
