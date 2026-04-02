@@ -6,7 +6,7 @@
 
 ---
 
-## 👥 Integrantes
+## Integrantes
 
 | Nome | RA |
 |---|---|
@@ -17,7 +17,7 @@
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto aplica redes neurais **LSTM (Long Short-Term Memory)** para a **predição de curto prazo do consumo horário de energia elétrica** em um edifício de campus universitário, com horizonte de 24 horas (estratégia *day-ahead*).
 
@@ -25,24 +25,8 @@ O erro de predição é explorado como mecanismo de **detecção de anomalias de
 
 O projeto está relacionado ao **Trabalho de Conclusão de Curso (TCC)** dos integrantes e é desenvolvido também no contexto da disciplina de Inteligência Artificial.
 
----
 
-## 🗂️ Estrutura do Repositório
-
-```
-📦 repositorio
- ┣ 📂 data/
- ┃ ┗ 📄 README_dataset.md       # Descrição detalhada do dataset
- ┣ 📂 notebooks/
- ┃ ┗ 📓 eda_baseline.ipynb      # Pré-processamento, EDA e modelo baseline
- ┣ 📂 relatorio/
- ┃ ┗ 📄 artigo_n1.docx          # Artigo parcial — entrega N1
- ┗ 📄 README.md
-```
-
----
-
-## 📊 Dataset
+## Dataset
 
 - **Fonte:** Mariano-Hernández et al. (2021) — Mendeley Data  
 - **DOI:** [10.17632/mzkyh37mtr.2](https://doi.org/10.17632/mzkyh37mtr.2)  
@@ -52,7 +36,7 @@ O projeto está relacionado ao **Trabalho de Conclusão de Curso (TCC)** dos int
 
 ---
 
-## 🔬 Notebooks
+## Notebooks
 
 | Notebook | Descrição |
 |---|---|
@@ -60,7 +44,7 @@ O projeto está relacionado ao **Trabalho de Conclusão de Curso (TCC)** dos int
 
 ---
 
-## 📈 Resultados Parciais (N1)
+## Resultados Parciais (N1)
 
 | Modelo | RMSE (kWh) | MAE (kWh) | MAPE (%) | R² |
 |---|---|---|---|---|
@@ -69,9 +53,9 @@ O projeto está relacionado ao **Trabalho de Conclusão de Curso (TCC)** dos int
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-- Python 3.10+
+- Python 
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Scikit-learn
@@ -79,16 +63,7 @@ O projeto está relacionado ao **Trabalho de Conclusão de Curso (TCC)** dos int
 
 ---
 
-## 📅 Entregas
 
-| Etapa | Prazo | Status |
-|---|---|---|
-| Parte 1 — Proposta | 01/03/2026 | ✅ Entregue |
-| Parte 2 — N1 (EDA + Artigo Parcial) | 01/04/2026 | ✅ Entregue |
-| Parte 3 — N2 (Modelo completo + Vídeo) | 28/05/2026 | 🔄 Em andamento |
-
----
-
-## 📚 Referência Principal
+## Referência Principal
 
 Mariano-Hernández, D. et al. (2021). *A Data-Driven Forecasting Strategy to Predict Continuous Hourly Energy Demand in Smart Buildings*. Applied Sciences, v. 11, n. 17, p. 7886. https://doi.org/10.3390/app11177886
